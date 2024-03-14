@@ -13,7 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Datos del Usuario</h1>
+        <h1 class="alineacion-derecha">Datos del Usuario</h1>
         <div class="container">
             <form action="SvUsuarios" method="POST">
                 <div class="mb-3">
@@ -34,7 +34,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>    
-            
+
             <<h1>Ver lista de Usuario</h1>
             <p>Para ver los datos de los usuarios cargados, haga clic en el boton</p>
             <form action="SvUsuarios" method="GET">
@@ -43,3 +43,9 @@
         </div>
     </body>
 </html>
+
+<style>
+    .alineacion-derecha {
+        margin-left: 70px;
+    }
+</style>
